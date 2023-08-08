@@ -1,0 +1,32 @@
+.fixed-theader-scroll-table {
+  table-layout: fixed;
+  border-collapse: collapse;
+  border: 1px solid #888;
+}
+
+.fixed-theader-scroll-table thead {
+  display: block;
+  background: #a88;
+  color: #fff;
+}
+
+.fixed-theader-scroll-table tbody {
+  display: block;
+  overflow: auto;
+  width: 100%;
+  height: 190px;
+}
+
+/* 행 */
+.fixed-theader-scroll-table th,
+.fixed-theader-scroll-table td {
+  width: 100px;
+  padding: 10px;
+  text-align: left;
+  text-align: center;
+  font-size: 0.875em;
+}
+
+.fixed-theader-scroll-table tbody tr:nth-child(2n + 1) {
+  background-color: #f0f0f0;
+}
