@@ -1,4 +1,4 @@
-document.getElementById("dropdown-content").addEventListener("blur", (event) => {
+document.getElementById("dropdown-button-container").addEventListener("blur", (event) => {
   console.log(event);
   const dropdownButtonContent = document.getElementById("dropdown-content");
   dropdownButtonContent.className = "custom-dropdown-content";

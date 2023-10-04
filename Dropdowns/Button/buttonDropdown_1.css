@@ -16,6 +16,7 @@ body {
 
 .custom-dropdown-container {
   position: relative;
+  width: 100%;
 }
 
 .custom-dropdown-button-wrapper {
